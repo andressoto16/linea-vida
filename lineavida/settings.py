@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'lineavida.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'pruebasgsc',
+        'NAME': 'lineavida',
         'USER': 'gsc',
         'PASSWORD': 'RYgPuQeCu3',
         'HOST': '172.16.20.236', 
@@ -124,3 +124,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal309.dll' # Gauss '/opt/homebrew/opt/gdal/lib/libgdal.dylib' MacOS
+GEOS_LIBRARY_PATH = r'C:\OSGeo4W\bin\geos_c.dll' # '/opt/homebrew/opt/geos/lib/libgeos_c.dylib' MacOS
