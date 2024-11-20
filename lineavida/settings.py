@@ -127,3 +127,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal308.dll' # Gauss '/opt/homebrew/opt/gdal/lib/libgdal.dylib' MacOS
 GEOS_LIBRARY_PATH = r'C:\OSGeo4W\bin\geos_c.dll' # '/opt/homebrew/opt/geos/lib/libgeos_c.dylib' MacOS
+
+# GDAL_LIBRARY_PATH = r'/opt/homebrew/opt/gdal/lib/libgdal.dylib' # MacOS
+# GEOS_LIBRARY_PATH = r'/opt/homebrew/opt/geos/lib/libgeos_c.dylib' # MacOS
