@@ -78,7 +78,8 @@ class Esquema(models.Model):
         on_delete=models.SET_NULL,
         null=True,
         blank=True,
-        related_name="esquemas"
+        related_name="esquemas",
+        db_column="id_datosprotegido"
     )
 
     def __str__(self):
